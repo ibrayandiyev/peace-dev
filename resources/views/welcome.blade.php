@@ -34,11 +34,11 @@
                 </ul>
                 <h3>2) Test emailing to a donor with attaching custom pdfs</h3>
                 <ul>
-                    <li><a href="">Sparkpost Mailing Test</a></li>
+                    <li><a href="{{ url('sparkpost/mailing-test') }}">Sparkpost Mailing Test</a></li>
                 </ul>
                 <h3>3) Save a donation info into the google sheet</h3>
                 <ul>
-                    <li><a href="">Test data saving</a></li>
+                    <li><a href="{{ url('googlesheets/donation-data-form') }}">Test data saving</a></li>
                 </ul>
             </div>
         </div>

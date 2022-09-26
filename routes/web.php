@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\PdfController;
 use App\Http\Controllers\SparkpostController;
+use App\Http\Controllers\GooglesheetsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,3 +32,6 @@ Route::get('generate-pdf/tax-receipt/download', [PdfController::class, 'generate
 
 Route::get('sparkpost/mailing-test', [SparkpostController::class, 'mailingTest']);
 Route::get('sparkpost/send', [SparkpostController::class, 'donorMailSend'])->name('donor_mail_send');
+
+Route::post('googlesheets/store-donation-data', [GooglesheetsController::class, 'saveDonationDataIntoGooglesheet'])->name('store_donation_data');
+Route::get('googlesheets/donation-data-form', [GooglesheetsController::class, 'donationDataForm']);
