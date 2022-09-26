@@ -1,0 +1,30 @@
+{
+    "josefinsans-bold": {
+        "normal": "josefinsans_bold_normal_20bee3e7466dab2bb9e385290abda0ce",
+        "bold": "F:\\peace-dev\\storage\\fonts\/josefinsans_bold_bold_2b24d3d25c8e86e3aaba6d4b37137f42"
+    },
+    "josefin-sans": {
+        "bold": "josefin_sans_bold_e8ad628592562cedbcda6fbb7cd8b5bf"
+    },
+    "josefinsans-semibold": {
+        "normal": "josefinsans_semibold_normal_20bee3e7466dab2bb9e385290abda0ce"
+    },
+    "josefinsans-light": {
+        "normal": "josefinsans_light_normal_f93a241f359ae5bb79060e10be747ccb"
+    },
+    "josefinsans-regular": {
+        "normal": "josefinsans_regular_normal_b1d80aad13bef30bf9c487efd1b5432a"
+    },
+    "khula-light": {
+        "normal": "khula_light_normal_d8c526c43cf65b9af292c6d8479fff88"
+    },
+    "khula-regular": {
+        "normal": "khula_regular_normal_c513c2f5636b0d68784018018ac4f555"
+    },
+    "khula-semibold": {
+        "normal": "khula_semibold_normal_a98156bba4edf44164031c8b3adaef46"
+    },
+    "ayar": {
+        "normal": "ayar_normal_98dd1ff91cbf93d6e276232f6338bfa1"
+    }
+}
